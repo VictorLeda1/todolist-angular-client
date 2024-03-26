@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+table{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(32, 32, 32, .3);
+    background: #fafafa;
+    text-align: left;
+}
+
+th{
+    background: #185fd2;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+th,td{
+    padding: 5px 12px;
+}
+
+tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+
+a{
+    cursor: pointer;
+    padding: 5px;
+}
+
+#edit{
+    color: rgb(78, 78, 224);
+}
+
+#delete{
+    color: rgb(233, 64, 64);
+}
+
+#finish{
+    color: rgb(71, 202, 71);
+}
+
+
+form{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 10px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(32, 32, 32, .3);
+    background: #fafafa;
+    text-align: center;
+}
+
+label{
+    margin: 0 10px 0 10px;
+}
+
+#id{
+    background-color: #fafafa;
+    border: solid 1px #fafafa;
+    
+    border-radius: 5px;
+    color: black;
+    width: 40px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#title{
+    background-color: #fafafa;
+    border: solid 1px #fafafa;
+    border-radius: 5px;
+    color: black;
+    width: 800px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+button{
+    margin-left: 15px;
+    width: 100px;
+    background-color: #185fd2;
+    border-radius: 5px;
+    border: none;
+    color: #fafafa;
+    font-size: 15px;
+    cursor: pointer;
+}
